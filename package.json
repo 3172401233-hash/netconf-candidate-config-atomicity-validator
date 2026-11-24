@@ -1,0 +1,13 @@
+{
+  "name": "netconf-candidate-config-atomicity-validator",
+  "version": "1.0.0",
+  "description": "Simulates NETCONF candidate/running transaction semantics: locks, edit-config error options, confirmed commit rollback and concurrent modification. No real device is contacted.",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node demo.js"
+  }
+}
